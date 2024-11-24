@@ -1,5 +1,3 @@
-import type { Route } from "./+types/home";
-
 export default function Home() {
   return (
     <div className="h-screen font-['Lora']">
@@ -11,8 +9,7 @@ export default function Home() {
           </h1>
           <div className="pt-12">Showcase the stats of your everyday work.</div>
           <div className="pt-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro,
-            tenetur accusamus reiciendis.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum porro, tenetur accusamus reiciendis.
           </div>
           <div className="pt-8 flex items-center gap-4">
             <button className="bg-blue-900/80 text-white rounded-full px-6 py-1.5">
