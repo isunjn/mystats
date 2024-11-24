@@ -14,4 +14,7 @@ export default [
       route("*", "routes/dash/404.tsx"),
     ]),
   ]),
+  ...prefix("api", [
+    route("auth/*", "routes/api/auth.ts"),
+  ]),
 ] satisfies RouteConfig;
